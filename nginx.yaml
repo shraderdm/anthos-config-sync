@@ -45,6 +45,6 @@ spec:
   selector:
     app: nginx-1
   sessionAffinity: None
-  type: LoadBalancer
+  type: ClusterIP
 
 
